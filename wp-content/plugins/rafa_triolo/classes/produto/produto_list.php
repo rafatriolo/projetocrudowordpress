@@ -13,7 +13,7 @@ echo "<tr><th>ID</th><th>Nome</th><th>Descrição</th><th>Preço</th></tr>";
 foreach ($rows as $row ){
 	echo "<tr>";
 	echo "<td>$row->id</td>";
-	echo "<td>$row->nome</td>";
+	echo "<td>$row->nome_produto</td>";
 	echo "<td>$row->descricao</td>";
 	echo "<td>$row->preco</td>";
 	echo "<td><a href='".admin_url('admin.php?page=produto_update&id='.$row->id)."'>Editar</a></td>";

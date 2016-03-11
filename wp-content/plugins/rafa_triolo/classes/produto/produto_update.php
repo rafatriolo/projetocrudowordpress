@@ -2,7 +2,7 @@
 function produto_update () {
 global $wpdb;
 $id = $_GET["id"];
-$nome = $_POST["nome"];
+$nome = $_POST["nome_produto"];
 $descricao = $_POST["descricao"];
 $preco = $_POST["preco"];
 //update
@@ -10,7 +10,7 @@ if(isset($_POST['update'])){
 	$wpdb->update(
 		'cadastroprodutos', //table
 		array(
-			'nome' => $nome,
+			'nome_produto' => $nome,
 			'descricao' => $descricao,
 			'preco' => $descricao,
 
@@ -26,7 +26,7 @@ else if(isset($_POST['delete'])){
 else{//selecting value to update	
 	$schools = $wpdb->get_results($wpdb->prepare("SELECT * from cadastroprodutos where id=%d",$id));
 	foreach ($schools as $s ){
-		$nome=$s->nome;
+		$nome=$s->nome_produto;
 		$descricao = $s->descricao;
 		$preco = $s->preco;
 	}
@@ -47,7 +47,7 @@ else{//selecting value to update
 <?php } else {?>
 <form method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
 <table class='wp-list-table widefat fixed'>
-<tr><th>Nome</th><td><input type="text" name="nome" value="<?php echo $nome;?>"/></td></tr>
+<tr><th>Nome</th><td><input type="text" name="nome_produto" value="<?php echo $nome;?>"/></td></tr>
 <tr><th>Descrição</th><td><textarea name="descricao"><?php echo $descricao;?></textarea></td></tr>
 <tr><th>Preço</th><td><textarea name="preco"><?php echo $preco;?></textarea></td></tr>
 </table>

@@ -2,14 +2,14 @@
 function produto_create () {
 $id = $_POST["id"];
 $descricao = $_POST["descricao"];
-$nome = $_POST["nome"];
+$nome = $_POST["nome_produto"];
 $preco = $_POST["preco"];
 //insert
 if(isset($_POST['insert'])){
 	global $wpdb;
 	$wpdb->insert(
 		'cadastroprodutos', //table
-		array('id' => $id,'nome' => $nome , 'descricao' => $descricao , 'preco' => $preco) //data
+		array('id' => $id,'nome_produto' => $nome , 'descricao' => $descricao , 'preco' => $preco) //data
 
 	);
 	$message.="School inserted";
@@ -22,7 +22,7 @@ if(isset($_POST['insert'])){
 <form method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
 <p>Three capital letters for the ID</p>
 <table class='wp-list-table widefat fixed'>
-<tr><th>Nome</th><td><input type="text" name="nome" value="<?php echo $nome;?>"/></td></tr>
+<tr><th>Nome</th><td><input type="text" name="nome_produto" value="<?php echo $nome;?>"/></td></tr>
 <tr><th>Descrição</th><td><textarea name="descricao"><?php echo $descricao;?></textarea></td></tr>
 <tr><th>Preço</th><td><input type="text" name="preco" value="<?php echo $preco;?>"/></td></tr>
 </table>
