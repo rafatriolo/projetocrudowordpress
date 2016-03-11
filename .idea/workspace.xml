@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="538a1350-09c4-4940-810a-d328eb550d30" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.html" afterPath="$PROJECT_DIR$/readme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_create.php" afterPath="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_list.php" afterPath="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_list.php" />
     </list>
     <ignored path="altran2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="init.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/rafa_triolo/init.php">
+      <file leaf-file-name="pedido_create.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.07736064">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -37,59 +38,24 @@
       <file leaf-file-name="pedido_list.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.296296">
-              <caret line="10" column="157" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="157" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding>
-                <element signature="e#254#282#0#HTML" expanded="true" />
-                <marker date="1457698490340" expanded="true" signature="361:498" placeholder="SELECT * fro..cadastroprodutos..." />
-                <marker date="1457698490340" expanded="true" signature="560:577" placeholder="..." />
+                <marker date="1457702788494" expanded="true" signature="360:497" placeholder="SELECT * fro..cadastroprodutos..." />
+                <marker date="1457702788494" expanded="true" signature="559:576" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.html">
+      <file leaf-file-name="cadastro_pedido.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../altran/cadastro_pedido.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="54" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="produto_list.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="47" selection-end-column="37" />
               <folding>
-                <marker date="1457698516257" expanded="true" signature="343:373" placeholder="SELECT * fro..cadastroprodutos..." />
-                <marker date="1457698516257" expanded="true" signature="433:450" placeholder="..." />
+                <marker date="1457701419742" expanded="true" signature="551:616" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="produto_update.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_update.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <marker date="1457698691148" expanded="true" signature="463:504" placeholder="DELETE FROM ..." />
-                <marker date="1457698691148" expanded="true" signature="596:638" placeholder="SELECT * fro..cadastroprodutos..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="produto_create.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_create.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -124,12 +90,12 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/cliente/cliente_update.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/init.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_update.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_create.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_list.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_list.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_create.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_update.php" />
         <option value="$PROJECT_DIR$/readme.html" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_list.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_create.php" />
       </list>
     </option>
   </component>
@@ -389,7 +355,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="1631" height="1017" extended-state="0" />
+    <frame x="-5" y="0" width="1631" height="1017" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2495356" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -440,9 +406,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#254#282#0#HTML" expanded="true" />
-            <marker date="1457698490340" expanded="true" signature="361:498" placeholder="SELECT * fro..cadastroprodutos..." />
-            <marker date="1457698490340" expanded="true" signature="560:577" placeholder="..." />
+            <marker date="1457702788494" expanded="true" signature="360:497" placeholder="SELECT * fro..cadastroprodutos..." />
+            <marker date="1457702788494" expanded="true" signature="559:576" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -640,14 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -656,14 +613,6 @@
             <marker date="1457643799380" expanded="true" signature="446:487" placeholder="DELETE FROM ..." />
             <marker date="1457643799380" expanded="true" signature="579:621" placeholder="SELECT * fro..cadastroprodutos..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/rafa_triolo/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,9 +635,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_list.php">
+    <entry file="file://$PROJECT_DIR$/readme.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="54" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/rafa_triolo/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84527874">
+          <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../altran/cadastro_pedido.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="47" selection-end-column="37" />
+          <folding>
+            <marker date="1457701419742" expanded="true" signature="551:616" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4641638">
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding>
             <marker date="1457698516257" expanded="true" signature="343:373" placeholder="SELECT * fro..cadastroprodutos..." />
@@ -699,20 +674,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.296296">
-          <caret line="10" column="157" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="157" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding>
-            <element signature="e#254#282#0#HTML" expanded="true" />
-            <marker date="1457698490340" expanded="true" signature="361:498" placeholder="SELECT * fro..cadastroprodutos..." />
-            <marker date="1457698490340" expanded="true" signature="560:577" placeholder="..." />
+            <marker date="1457702788494" expanded="true" signature="360:497" placeholder="SELECT * fro..cadastroprodutos..." />
+            <marker date="1457702788494" expanded="true" signature="559:576" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.html">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="54" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.07736064">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
           <folding />
         </state>
       </provider>

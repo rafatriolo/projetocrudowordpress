@@ -3,7 +3,7 @@ function pedidos_list () {
 	?>
 	<link type="text/css" href="<?php echo WP_PLUGIN_URL; ?>/rafa_triolo/style-admin.css" rel="stylesheet" />
 	<div class="wrap">
-		<h2>Produtos</h2>
+		<h2>Pedidos</h2>
 		<a href="<?php echo admin_url('admin.php?page=produto_create'); ?>" style="margin-bottom: 10px;">Adicionar Novo</a>
 		<?php
 		global $wpdb;
