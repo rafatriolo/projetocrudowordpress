@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="538a1350-09c4-4940-810a-d328eb550d30" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_list.php" afterPath="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_create.php" afterPath="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_list.php" afterPath="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_update.php" afterPath="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.html" afterPath="$PROJECT_DIR$/readme.html" />
     </list>
     <ignored path="altran2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,16 +34,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pedido_list.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pedido_list.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19953051">
+            <state vertical-scroll-proportion="-6.296296">
               <caret line="10" column="157" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="157" />
               <folding>
                 <element signature="e#254#282#0#HTML" expanded="true" />
                 <marker date="1457698490340" expanded="true" signature="361:498" placeholder="SELECT * fro..cadastroprodutos..." />
                 <marker date="1457698490340" expanded="true" signature="560:577" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="54" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,6 +129,7 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_list.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_create.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/produto/produto_update.php" />
+        <option value="$PROJECT_DIR$/readme.html" />
       </list>
     </option>
   </component>
@@ -693,13 +699,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/rafa_triolo/classes/pedidos/pedido_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19953051">
+        <state vertical-scroll-proportion="-6.296296">
           <caret line="10" column="157" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="157" />
           <folding>
             <element signature="e#254#282#0#HTML" expanded="true" />
             <marker date="1457698490340" expanded="true" signature="361:498" placeholder="SELECT * fro..cadastroprodutos..." />
             <marker date="1457698490340" expanded="true" signature="560:577" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="54" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
